@@ -1,1 +1,3 @@
-print("Merhaba Degiskenler")
+mesaj = input("isim: ")
+
+print("Merhaba " + mesaj)
