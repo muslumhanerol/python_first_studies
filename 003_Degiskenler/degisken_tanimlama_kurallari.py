@@ -22,3 +22,13 @@ print (x + y) # 1020
 x= 10
 y= 20
 print (x + y) # 30
+
+
+x=10  
+y=20
+z=30  # iki yazım arasında fark fark.
+
+x, y, z = 10, 20, 30
+
+
+x, y, z = 50 # tüm değişkenlere tek bir değer atandı hepsi 50.
