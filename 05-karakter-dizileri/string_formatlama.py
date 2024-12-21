@@ -18,8 +18,9 @@ yas=30
 
 
 # f-string
+#f yazdığımızda parantez içerisinde sayfa içerisinde olan tüm değişkenleri kullanabiliriz.
 
-mesaj="My name {a} {s}. I am {y} years old."
+mesaj= f"My name {ad} {soyAd}. I am {yas} years old."
 
 
 print(mesaj)
