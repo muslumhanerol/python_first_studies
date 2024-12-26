@@ -1,4 +1,4 @@
-customers = ["sadikturan", "ahmetyşlmaz", "cinarturan", "yigitbilgi"]
+customers = ["sadikturan", "ahmetyilmaz", "cinarturan", "yigitbilgi"]
 order_totals = [12000, 13000, 5000, 15000]
 
 # 1- "sadikturan" kullanıcı adıyla yapılan 5000 liralık sipariş listeye ekleyiniz.
@@ -32,32 +32,58 @@ order_totals.append(5000)
 
 # 4- Müşterileri alfabetik olarak sıralayınız.
 
-customers.sort()
+customers.sort() #a dan z ye sıralama yapar.
 print(customers)
 
 #-----------------------------------------------------------------------------------------------------
 
 # 5- Sipariş toplamlarını azalan şekilde sıralayınız.
 
+order_totals.sort() # Bu fonk. artan şekilde sıralar.
+order_totals.reverse() # Sonucu ters çevirisiz ve azalan şekilde sıralama yapmış olur.
+
+#print(order_totals)
 
 #-----------------------------------------------------------------------------------------------------
-
 
 # 6- En düşük sipariş hangisidir?
-#-----------------------------------------------------------------------------------------------------
 
+sonuc= min(order_totals) 
+sonuc= max(order_totals)
+
+#-----------------------------------------------------------------------------------------------------
 
 # 7- "sadikturan" isimli kullanıcının kaç tane siparişi vardır?
-#-----------------------------------------------------------------------------------------------------
 
+sonuc = customers.count("sadikturan") #append edilenle beraber 2.
+
+#-----------------------------------------------------------------------------------------------------
 
 # 8- Customers listesinden "ahmetyılmaz" isimli kullanıcıyı siliniz.
-#-----------------------------------------------------------------------------------------------------
 
+customers.remove("ahmetyilmaz")
+#sonuc=customers
+
+#-----------------------------------------------------------------------------------------------------
 
 # 9- Listelerdeki tüm içerikleri siliniz.
-#-----------------------------------------------------------------------------------------------------
 
+# customers.clear() 
+# order_totals.clear()
+
+# sonuc=customers
+# sonuc=order_totals
+
+#-----------------------------------------------------------------------------------------------------
 
 # 10- Kullanıcıdan aldığınız kullanıcı adı ve sipariş toplamlarını listeye ekleyiniz.
 
+userName = input("müşteri adı: ")
+toplam= input("toplam: ")
+
+customers.append(userName)
+order_totals.append(toplam)
+
+
+print(customers)
+print(order_totals)
