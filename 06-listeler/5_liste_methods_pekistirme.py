@@ -23,20 +23,23 @@ order_totals.append(5000)
     # "<username>" isimli müşterinin sipariş toplamı "<10000>" liradır.
 
 # {customers[0]} = customers dizisi 0. index, yani saıkturan. order_totals[0] = order_totals dizisi 0.index yani 12000.
-sonuc = f"{customers[0]} ' isimli müşterinin sipariş toplamı {order_totals[0]} liradır" 
+# sonuc = f"{customers[0]} ' isimli müşterinin sipariş toplamı {order_totals[0]} liradır" 
 
 # ikinci dizi elemanı ve fiyat bilgisi aynı şeyler geçerli.
-sonuc = f"{customers[1]} ' isimli müşterinin sipariş toplamı {order_totals[1]} liradır" 
-
+# sonuc = f"{customers[1]} ' isimli müşterinin sipariş toplamı {order_totals[1]} liradır" 
 
 #-----------------------------------------------------------------------------------------------------
-
 
 # 4- Müşterileri alfabetik olarak sıralayınız.
+
+customers.sort()
+print(customers)
+
 #-----------------------------------------------------------------------------------------------------
 
-
 # 5- Sipariş toplamlarını azalan şekilde sıralayınız.
+
+
 #-----------------------------------------------------------------------------------------------------
 
 
@@ -58,4 +61,3 @@ sonuc = f"{customers[1]} ' isimli müşterinin sipariş toplamı {order_totals[1
 
 # 10- Kullanıcıdan aldığınız kullanıcı adı ve sipariş toplamlarını listeye ekleyiniz.
 
-print(sonuc)
