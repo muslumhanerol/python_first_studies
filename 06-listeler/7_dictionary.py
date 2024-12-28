@@ -16,4 +16,15 @@
 #dictionary
 
 # İlk yazılan value bilgisi ona karşılık gelen ise değer.
-plakalar = {"kocaeli": 41, }
+plakalar = {
+    "kocaeli": 41, 
+    "istanbul": 34,
+    "izmir":36
+}
+
+
+plakalar["izmir"] = 35 # veri düzeltme
+
+print(plakalar["kocaeli"]) #41
+print(plakalar["istanbul"]) #34
+print(plakalar["izmir"])
