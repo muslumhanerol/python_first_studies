@@ -21,7 +21,12 @@ my_list.append(3) # my_list değişkenine son eleman olarak 3 eklendi.
 sonuc=my_tuple.count(1) # 1 den kaç eleman var çıktısı verir.
 
 
+my_tuple2 = tuple([2,3,4]) # Normal bir listeyi tuple yapma.
+my_tuple2 = list((2,3,4)) #tuple i normal liste yapma.
+print(type(my_tuple2))
+
+
+
 
 print(sonuc)
-
 
