@@ -8,6 +8,8 @@ print(type(my_list))
 print(type(my_tuple))
 
 
+my_list
+
 sonuc = my_list[0]
 sonuc = my_tuple[0]
 
