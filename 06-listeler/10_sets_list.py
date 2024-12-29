@@ -19,10 +19,12 @@ meyveler2={"elma", "armut", "kiraz","kavun"}
 
 #sonuc = "elma" in meyveler # Herhangi bir eleman listede var mı yokmu sorgular. True yada False değer döner.
 
-meyveler.add("karpuz") #Listeye yeni eleman ekleme.
-meyveler.update(meyveler2) # meyveler ve meyveler2 değişkenlerini birleştirdik. Sadece farklı olanlar ekrana yazdırılır, aynı olanlar yazdırılmaz.
-meyveler.remove("elma") # Liste üzerinden silme işlemi yapar. Geriye varsa hata döndürür.
-meyveler.discard("armut") # Liste üzerinden silme işlemi yapar. Geriye hata döndürmez.
+#meyveler.add("karpuz") #Listeye yeni eleman ekleme.
+#meyveler.update(meyveler2) # meyveler ve meyveler2 değişkenlerini birleştirdik. Sadece farklı olanlar ekrana yazdırılır, aynı olanlar yazdırılmaz.
+#meyveler.remove("elma") # Liste üzerinden silme işlemi yapar. Geriye varsa hata döndürür.
+#meyveler.discard("armut") # Liste üzerinden silme işlemi yapar. Geriye hata döndürmez.
+meyveler.pop() #Setslerde index sorgulanamadığından rastgele silecek. Hangi elemanın silineceği bilinemez.
+meyveler.clear() # Listeyi tamamen siler.
 
 sonuc=meyveler
 
