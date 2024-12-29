@@ -17,10 +17,21 @@ sonuc = yemekTarifi.items() # Dictionary yapısı listeye çevrilir. [('yemekAdi
 # update items
 #yemekTarifi["yemekAdi"] = "Mantı" # güncelleme-ekleme işlemi yapar.
 
-yemekTarifi.update({"yemekAdi":"Mantı"}) # Başka bir güncelleme-ekleme metodu.
+#yemekTarifi.update({"yemekAdi":"Mantı"}) # Başka bir güncelleme-ekleme metodu.
 #yemekAdi key bilgisi aynı kalırsa güncelleme işlemi yapar, ancak yemekAdi2 dersek ekleme işlemi yapmış olur.
+#sonuc = yemekTarifi
 
-sonuc = yemekTarifi
+
+# delete items
+
+#yemekTarifi.pop("yemekAdi") # Yemek adı key bilgisi silindi. Çıktı:{'yemekTarifi': 'Tarif açıklaması', 'resim': '1.jpg'}
+
+#yemekTarifi.popitem() # Son eklenen elemanı siler. Sonuç: {'yemekAdi': 'Musakka', 'yemekTarifi': 'Tarif açıklaması'}
+
+yemekTarifi.clear() #Liste içerisindeki bütün elemanları siler.
+
+sonuc=yemekTarifi
+
 
 
 print(sonuc)
