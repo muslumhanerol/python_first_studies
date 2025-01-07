@@ -36,3 +36,13 @@ print(sonuc)
 
 # 5- Uygulamaya giriş kontrolünü "username yada email" ve "parola" için yapalım.
 
+email = "akademi@btk.com"
+userName = "müslüm"
+password = "123456"
+
+girilenBilgi = input("email yada username: ")
+girilenParola = input("parola giriniz: ")
+
+sonuc= (email == girilenBilgi or userName == girilenBilgi) and (password == girilenParola)
+
+print(sonuc)
