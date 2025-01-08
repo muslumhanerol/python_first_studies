@@ -6,6 +6,10 @@
 
 
 
+#-------------------------------------------------------------------------------------------
+
+
+
 # Bir öğrencinin 2 yazılı bir sözlü notunu alarak ortalama hesaplayınız ve hesaplanan ortalamaya göre not aralığına karşılık gelen değerlendirmeyi yazdırınız.
 
 # 0  - 24   => 0
